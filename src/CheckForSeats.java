@@ -26,11 +26,11 @@ public class CheckForSeats {
                     System.out.print((char)(j+1+65) + " " + (int)(i + 1) + " ");
                     System.out.print("  ");
                 }
-                if((matrixOfSeats[i][j]|matrixOfSeats[i][j+2])==0) {
-                    System.out.print((char)(j + 65) + " " + (int) (i + 1) + " ");
-                    System.out.print((char)(j+2+65) + " " + (int)(i + 1) + " ");
-                    System.out.print("  ");
-                }
+//                if((matrixOfSeats[i][j]|matrixOfSeats[i][j+2])==0) {
+//                    System.out.print((char)(j + 65) + " " + (int) (i + 1) + " ");
+//                    System.out.print((char)(j+2+65) + " " + (int)(i + 1) + " ");
+//                    System.out.print("  ");
+//                }
                 if((matrixOfSeats[i][j+1]|matrixOfSeats[i][j+2])==0){
                     System.out.print((char)(j+1+65) + " " + (int)(i + 1) + " ");
                     System.out.print((char)(j+2+65) + " " + (int)(i + 1) + " ");
