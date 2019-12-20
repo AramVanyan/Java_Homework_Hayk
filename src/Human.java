@@ -95,6 +95,5 @@ public class Human {
         sortByIncreaseOfAge(humans);
         to_String(humans);
         //first change
-        //second change
     }
 }
